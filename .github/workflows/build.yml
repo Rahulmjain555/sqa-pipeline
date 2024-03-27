@@ -1,0 +1,14 @@
+name: SQA Invoke
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  invoke_curl_request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invoke Curl Request
+        run: |
+          curl -X POST -H "Content-Type: application/json" -d '{"key": "value"}' https://example.com/api/endpoint
