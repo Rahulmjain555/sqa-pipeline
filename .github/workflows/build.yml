@@ -14,3 +14,7 @@ jobs:
           curl -X POST https://simplifyqa.app/jenkinsSuiteExecution -H 'Authorization:XPrsCRiuDE0HlurNLjjo1dcthtkF7shuAwWu6NyMj2H2NllhMHlMyfzdSfrflZvVvqAXCBBl5BnlTnO0B7mjKodULbIQFUQtHc6GUto9GCJd0jJNi4DGtZFT' -H 'Content-Type: application/json' -d '{"token": "U2FsdGVkX1/JODUXS6MUeeSI8b7bc7nUrN1BMR8yOjvWTgIlwOOaNlSIQ2C/kwXDpdymqrlLME2cxroKWoTLqg=="}'
           
 
+
+
+
+
