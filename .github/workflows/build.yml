@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Invoke Curl Request
         run: |
-          curl -X POST -H "Content-Type: application/json" -d '{"key": "value"}' https://example.com/api/endpoint
+          curl -X GET -H "Content-Type: application/json" https://simplify3x.com
